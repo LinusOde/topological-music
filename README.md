@@ -10,6 +10,11 @@
 
 We explore how number sequences (like those from OEIS) can be interpreted musically using topological mappings. Our goal is to discover new ways to hear structure, logic, and abstraction — revealing patterns that are not always visible, but may become audible.
 
+## 👥 Credits
+
+This project was initiated by Hugo Angulo, who first proposed the idea of exploring number sequences through musical and topological mappings.  
+Special thanks to the OEIS community and the open-source we build upon.
+
 ## 🎯 Goals
 
 - Map number sequences to musical structures (pitch, rhythm, harmony)
