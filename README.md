@@ -1,6 +1,6 @@
 # Topological Music: Turning Number Sequences Into Sound
 
-**Authors**: Linus Ode & Hugo Angulo  
+**Authors**: Linus Ode (& Hugo Angulo?)  
 **Status**: Work-in-progress experimental platform  
 **Started**: July 2025
 
