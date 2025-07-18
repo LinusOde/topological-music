@@ -62,3 +62,27 @@
 - Use MuseScore to import, visualize, and play these sequences.
 - Experiment with mapping number properties (size, gaps, modularity) to musical parameters (pitch, rhythm, space, timbre).
 - Log further conceptual conversations and findings in `docs/` folder of the repo.
+
+- ---
+
+### **Entry 5: Local Environment Setup**
+**Date**: July 18, 2025
+
+- Installed **Python 3.x** from python.org.
+- Chose **Visual Studio Code** as the code editor for development.
+- Verified Python installation using `python --version`.
+- Installed the **music21** library via `pip install music21` to handle MusicXML creation.
+- Confirmed `music21` works on the local machine for generating `.musicxml` files.
+- Created and tested a script `sequence_to_musicxml.py` in the `code/` folder to convert sequences into pitch-mapped MusicXML scores.
+- Defined the pitch-mapping logic using a **local context** window of 3 previous and 3 following values.
+- Applied normalization to map local values into a range of MIDI pitches (21–108 for full piano).
+
+---
+
+### **Planned Next Steps**
+
+- Use the `sequence_to_musicxml.py` script with OEIS sequences.
+- Open and review generated `.musicxml` scores in MuseScore.
+- Expand the script to support variable durations, dynamics, or instrument mappings.
+- Begin exploring mappings beyond pitch: spatialization, reverb, timbral variation.
+- Document ideas and discussions in `docs/` folder of the GitHub project.
