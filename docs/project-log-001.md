@@ -86,3 +86,43 @@
 - Expand the script to support variable durations, dynamics, or instrument mappings.
 - Begin exploring mappings beyond pitch: spatialization, reverb, timbral variation.
 - Document ideas and discussions in `docs/` folder of the GitHub project.
+
+### **Entry 6: Two-Note Chords with Local Context**
+
+**Date**: July 21, 2025\\
+
+- Developed script to render a series of 2-note chords from a number sequence.\\
+- Each chord is formed by taking two consecutive values, mapped to pitch using local min/max normalization.\\
+- Duration of each chord is proportional to the pitch difference between the two notes, then snapped to valid rhythmic values.\\
+- Result: flowing harmony with evolving texture and rhythm.
+
+---
+
+### **Entry 7: Three-Note Chords with Spread-Based Rhythm**
+
+**Date**: July 21, 2025\\
+
+- Updated script to render 3-note chords based on triplets of consecutive numbers.\\
+- Pitch mapping retains local context logic.\\
+- Duration determined by spread (max - min) of the three pitches, emphasizing wider harmonic jumps with longer durations.\\
+- Output generated and tested successfully in MuseScore — dense but structured result.
+
+---
+
+### **Playback and Listening Techniques**
+
+**Date**: July 21, 2025\\
+
+- To slow down the music in MuseScore:\\
+  - Used the Play Panel (F8) and reduced tempo to 50% for better perception.\\
+  - Optionally used “Halve Note Durations” in MuseScore to make the change permanent.\\
+- Future consideration: embed tempo metadata directly in MusicXML if needed.
+
+---
+
+### **Next Steps**
+
+- Extend script functionality with optional tempo scaling.\\
+- Begin testing with real OEIS sequences.\\
+- Start experimenting with spatial markers, dynamic layers, and timbral changes to simulate "room size" or topological wrapping.\\
+- Log and document each script version with consistent naming for reproducibility.
